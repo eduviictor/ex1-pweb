@@ -1,4 +1,4 @@
-package br.ufrn.bsi.pweb;
+package br.ufrn.ceres.bsi.pweb.ex1;
 
 public class Main {
 

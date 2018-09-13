@@ -5,4 +5,4 @@
  * @author Eduardo
  *
  */
-package br.ufrn.bsi.pweb.servlet;
+package br.ufrn.ceres.bsi.pweb.ex1;

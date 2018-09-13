@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+header {
+	width: 100%;
+	height: 100vh;
+	padding: 40px 2%;
+	min-height: 800px;
+	background-image: url('../imagens/capa.png');
+	background-size: cover;
+	background-position: center;
+	font-weight: 300;
+}
+
+header nav {
+	float: right;
+}
+
+header .logo {
+	position: relative;
+	top: -10px;
+	float: left;
+	width: 160px;
+	height: 40px;
+	background-color: rgb(200, 200, 200); background-size : contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+header nav.list-header ul {
+	list-style: none;
+}
+
+header nav.list-header ul>li {
+	float: left;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+
+header nav.list-header ul>li:hover{
+	background-color: rgba(100, 100, 100, 0.5);
+	border-radius: 10px;
+	
+}
+
+header nav.list-header ul>li>a {
+	text-decoration: none;
+	color: white;
+}
+
+header nav.chamada1 {
+	text-align: center;
+	margin: 140px 150px;
+	padding: 10px;
+}
+
+header nav.chamada1 h2 {
+	color: white;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+header nav.chamada1 p {
+	color: white;
+	font-size: 30px;	
+}
